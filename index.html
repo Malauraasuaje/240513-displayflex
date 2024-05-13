@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="María Laura Asuaje">
+    <!--enlace hoja de estilos-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Display:Flex</title>
+</head>
+<body>
+    <h1>Display:Flex</h1>
+    <h3>Flex-Direction</h3>
+    <div class="contenedor row">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div class="contenedor row_reverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div class="contenedor column">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div class="contenedor column_reverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <h3>Flex-Wrap</h3>
+    <div class="contenedor nowrap">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+    <div class="contenedor wrap">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+    <div class="contenedor wrap_reverse">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+    <!--div.contenedor*3>div.item*9-->
+    <h3>Flex-Flow</h3>
+    <div class="contenedor">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+    <h3>Flex-Gap</h3>
+    <div class="contenedor column  row-gap">
+        <h3>Row-Gap</h3>
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+    <div class="contenedor row column-gap">
+        <h3>Row-Gap</h3>
+        <div class="item">Item 1 </div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+    <h3>Justify-Content</h3>
+    <div class="contenedor start">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <div class="contenedor end">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <div class="contenedor center">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <div class="contenedor between">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <div class="contenedor around">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <div class="contenedor evenly">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <h3>Align-Items</h3>
+    <div class="contenedor2 astart">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+    </div>
+    <div class="contenedor2 aend">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+    </div>
+    <div class="contenedor2 acenter">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+    </div>
+    <div class="contenedor2 astretch">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+    </div>
+    <div class="contenedor2 abaseline">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+    </div>
+    <h3>Align-Content</h3>
+    <div class="contenedor2 cstart">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+        <div class="item2">Item 9</div>
+    </div>
+    <div class="contenedor2 cend">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+        <div class="item2">Item 9</div>
+    </div>
+    <div class="contenedor2 ccenter">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+        <div class="item2">Item 9</div>
+    </div>
+    <div class="contenedor2 cbetween">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+        <div class="item2">Item 9</div>
+    </div>
+    <div class="contenedor2 caround">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+        <div class="item2">Item 9</div>
+    </div>
+    <div class="contenedor2 cstretch">
+        <div class="item2">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item2">Item 3</div>
+        <div class="item2">Item 4</div>
+        <div class="item2">Item 5</div>
+        <div class="item2">Item 6</div>
+        <div class="item2">Item 7</div>
+        <div class="item2">Item 8</div>
+        <div class="item2">Item 9</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.contenedor {
+    border: 5px solid rgb(156, 220, 236); 
+    margin-bottom: 15px;
+    display: flex;
+    background: background hsla(141, 81%, 87%, 1);
+    background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );
+}
+
+.item { 
+    border:1px solid whitesmoke;
+    width: 50px;
+    /*height: 20px;*/
+    padding: 15px;
+    background-color: darksalmon;
+    border-radius: 20%;
+}
+/*flex-direction*/
+.row{flex-direction: row;}
+.row_reverse{flex-direction: row-reverse;}
+.column{flex-direction: column;}
+.column_reverse{flex-direction:column-reverse;}
+
+/*flex-wrap*/
+.nowrap{flex-wrap: nowrap;}
+.wrap{flex-wrap: wrap;}
+.wrap_reverse{flex-wrap: wrap-reverse;}
+
+/*flex-flow sirve para agrupar propiedades:
+-flex-direction:row;
+-flex-wrap: wrap-reverse; */
+.flex-flow{flex-flow: row wrap-reverse}
+
+/*Row-Gap Column-Gap*/
+.row-gap{row-gap: 10px;}
+.column-gap{column-gap: 40px}
+/* .gap{gap: 10px 40px;} */
+
+/*justify-content*/
+.start{justify-content: start;}
+.end {justify-content: end;}
+.center {justify-content: center;}
+.between{justify-content: space-between;}
+.around{justify-content: space-around;}
+.evenly{justify-content: space-evenly;}
+
+.contenedor2{
+    border: 5px solid rgb(230, 163, 247); 
+    margin-bottom: 10px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    background: background hsla(154, 100%, 76%, 1);
+    background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+}
+.item2{ border:1px solid whitesmoke;
+    width: 50px;
+    /*height: 20px;*/
+    padding: 15px;
+    background-color: rgb(207, 158, 247);
+    border-radius: 20%;}
+
+    .astart{align-items: start;}
+    .aend{align-items: end;}
+    .acenter{align-items: center;}
+    .astreth{align-items: stretch;}
+    .abaseline{align-items: baseline;}
+
+/*align-content*/
+    .cstart{align-content: start;}
+    .cend{align-content: end;}
+    .ccenter{align-content: center;}
+    .cbetween{align-content: space-between;}
+    .caround{align-content: space-around;}
+    .cstretch{align-content: stretch;}
+
+
+
+
